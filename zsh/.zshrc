@@ -8,5 +8,5 @@ bindkey -v
 
 setopt AUTO_CD PUSHD_IGNORE_DUPS APPEND_HISTORY
 
-autoload -Uz compinit; compinit
-
+autoload -U compinit promptinit
+compinit; promptinit
