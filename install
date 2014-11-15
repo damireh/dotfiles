@@ -1,0 +1,10 @@
+#!/bin/bash
+
+stow=`which stow`
+stow_root=`dirname $0`
+packages=`find ${stow_root} -type d -depth 1 -not -name ".*" -exec basename {} \;`
+
+for package in ${packages}; do
+  echo "Installing ${package}"
+  ${stow} ${package} -t ~
+done
