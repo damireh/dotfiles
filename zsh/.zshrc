@@ -17,11 +17,28 @@ setopt AUTO_CD NO_BEEP CORRECT
 autoload -U compinit promptinit colors
 compinit; promptinit; colors
 
-git_prompt_info() {
+current_directory() {
+  echo "%1~"
+}
+
+git_prompt() {
   ref=$(git symbolic-ref HEAD 2> /dev/null)
   if [[ -n $ref ]]; then
-    echo "[%{$fg_bold[green]%}${ref#refs/heads/}%{$reset_color%}]"
+    echo "${ref#refs/heads/}"
   fi
 }
 
-PROMPT='$(git_prompt_info)[%{$fg_bold[blue]%}%1~%{$reset_color%}] '
+ruby_version() {
+  if (( $+commands[rbenv] )) then
+    echo "$(rbenv version | awk '{print $1}')"
+  fi
+}
+
+ruby_prompt() {
+  if ! [[ -z "$(ruby_version)" ]] then
+    echo "$(ruby_version)"
+  fi
+}
+
+PROMPT='%F{green}$(git_prompt)%f %F{blue}$(current_directory)%f '
+RPROMPT='%F{yellow}$(ruby_prompt)%f'
