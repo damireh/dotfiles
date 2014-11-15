@@ -1,0 +1,15 @@
+[user] 
+  name = Daniel Amireh 
+  email = daniel@amireh.org 
+ 
+[color] 
+  ui = auto 
+ 
+[format] 
+  pretty = %Cblue%h%Creset %Cgreen[%ar]%Creset (%an) %s 
+ 
+[core] 
+  excludesfile = /Users/daniel/.gitignore_global 
+ 
+[push] 
+  default = current 
