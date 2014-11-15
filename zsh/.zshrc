@@ -14,5 +14,5 @@ bindkey "^R" history-incremental-search-backward
 
 setopt AUTO_CD NO_BEEP CORRECT
 
-autoload -U compinit promptinit
-compinit; promptinit
+autoload -U compinit promptinit colors
+compinit; promptinit; colors
