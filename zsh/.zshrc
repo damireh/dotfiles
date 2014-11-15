@@ -1,4 +1,4 @@
-[[ -f ~/.aliases ]] && source ~/.aliases
+[[ -f ~/.aliasrc ]] && source ~/.aliasrc
 
 HISTFILE=~/.histfile
 HISTSIZE=1000
