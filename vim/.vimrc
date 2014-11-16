@@ -9,6 +9,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-commentary'
 
 call vundle#end()
 
