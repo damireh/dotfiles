@@ -7,6 +7,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'itchyny/lightline.vim'
+Plugin 'tpope/vim-rails'
 
 call vundle#end()
 
