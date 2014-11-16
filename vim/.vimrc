@@ -21,7 +21,7 @@ set tabstop=2 shiftwidth=2 expandtab
 
 set backspace=2
 
-set nu relativenumber numberwidth=4
+set nu relativenumber numberwidth=2
 
 set incsearch hlsearch
 
