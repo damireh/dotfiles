@@ -8,6 +8,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'tpope/vim-rails'
+Plugin 'tpope/vim-surround'
 
 call vundle#end()
 
