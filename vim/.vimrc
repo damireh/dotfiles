@@ -11,6 +11,7 @@ Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-dispatch'
+Plugin 'mattn/emmet-vim'
 
 call vundle#end()
 
@@ -37,3 +38,5 @@ set wildignore+=*/tmp/*
 
 map <Leader>t :Dispatch rspec %<CR>
 map <Leader>a :Dispatch rspec .<CR>
+
+let g:user_emmet_leader_key='<C-x>'
