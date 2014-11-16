@@ -25,5 +25,6 @@ set nu relativenumber numberwidth=2
 
 set incsearch hlsearch
 
+set laststatus=2 ruler showcmd
 autocmd BufWritePre * :%s/\s\+$//e
 
