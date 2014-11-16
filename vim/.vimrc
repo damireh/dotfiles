@@ -10,5 +10,7 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 set incsearch hlsearch
 
+colorscheme smyck
+
 filetype plugin indent on
 syntax on
