@@ -1,2 +1,5 @@
 .DS_Store
 .netrwhist
+.envrc
+config/database.yml
+log
