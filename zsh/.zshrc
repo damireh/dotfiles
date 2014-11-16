@@ -11,6 +11,7 @@ HISTSIZE=1000
 SAVEHIST=1000
 
 bindkey "^R" history-incremental-search-backward
+bindkey "^X^E" edit-command-line
 
 setopt AUTO_CD NO_BEEP CORRECT
 
