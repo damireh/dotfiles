@@ -10,8 +10,12 @@ Plugin 'itchyny/lightline.vim'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-dispatch'
 
 call vundle#end()
+
+map <Leader>t :Dispatch rspec %<CR>
+map <Leader>a :Dispatch rspec .<CR>
 
 filetype plugin indent on
 syntax on
