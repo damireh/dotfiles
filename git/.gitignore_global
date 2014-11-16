@@ -3,3 +3,5 @@
 .envrc
 config/database.yml
 log
+*.log
+public
