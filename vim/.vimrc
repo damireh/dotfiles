@@ -30,7 +30,5 @@ set incsearch hlsearch
 
 set laststatus=2 ruler showcmd
 
-let g:netrw_dirhistmax = 0
-
 autocmd BufWritePre * :%s/\s\+$//e
 
