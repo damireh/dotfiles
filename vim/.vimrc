@@ -14,9 +14,6 @@ Plugin 'tpope/vim-dispatch'
 
 call vundle#end()
 
-map <Leader>t :Dispatch rspec %<CR>
-map <Leader>a :Dispatch rspec .<CR>
-
 filetype plugin indent on
 syntax on
 
@@ -36,3 +33,7 @@ set laststatus=2 ruler showcmd
 
 autocmd BufWritePre * :%s/\s\+$//e
 
+set wildignore+=*/tmp/*
+
+map <Leader>t :Dispatch rspec %<CR>
+map <Leader>a :Dispatch rspec .<CR>
