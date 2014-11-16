@@ -11,11 +11,11 @@ HISTSIZE=1000
 SAVEHIST=1000
 
 bindkey "^R" history-incremental-search-backward
-bindkey "^X^E" edit-command-line
+zle -N edit-command-line
 
 setopt AUTO_CD NO_BEEP CORRECT
 
-autoload -U compinit promptinit colors
+autoload -U compinit promptinit colors edit-command-line
 compinit; promptinit; colors
 
 current_directory() {
