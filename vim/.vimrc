@@ -41,3 +41,4 @@ map <Leader>t :Dispatch rspec %<CR>
 map <Leader>a :Dispatch rspec .<CR>
 
 let g:user_emmet_leader_key='<C-x>'
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . -co --exclude-standard', 'find %s -type f']
