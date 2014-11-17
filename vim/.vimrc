@@ -11,6 +11,7 @@ Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-dispatch'
+Plugin 'tpope/vim-fugitive'
 Plugin 'mattn/emmet-vim'
 
 call vundle#end()
