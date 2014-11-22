@@ -6,17 +6,17 @@ set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
 
+Plugin 'benmills/vimux'
 Plugin 'gmarik/Vundle.vim'
 Plugin 'itchyny/lightline.vim'
+Plugin 'jgdavey/vim-turbux'
 Plugin 'kien/ctrlp.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'rking/ag.vim'
 Plugin 'tpope/vim-commentary'
-Plugin 'tpope/vim-dispatch'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-surround'
-Plugin 'jgdavey/vim-turbux'
 
 call vundle#end()
 
@@ -47,9 +47,5 @@ endfunction
 
 inoremap <Tab> <c-r>=InsertTabWrapper()<cr>
 
-map <Leader>t :Dispatch rspec %<CR>
-map <Leader>a :Dispatch rspec .<CR>
-
 let g:user_emmet_leader_key='<C-x>'
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . -co --exclude-standard', 'find %s -type f']
-let g:turbux_command_prefix = 'bundle exec'
