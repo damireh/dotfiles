@@ -1,7 +1,6 @@
 alias todo="$EDITOR ~/.todo"
 
 alias mkdir="mkdir -p"
-alias rm="rm -i"
 
 alias tml="tmux list-sessions"
 alias tma="tmux -2 attach -t $1"
@@ -13,6 +12,8 @@ alias gma="git commit -am"
 alias gc="git checkout"
 alias gcb="git checkout -b"
 alias gl="git log --oneline"
+
+alias -g G="| pt"
 
 alias b="bundle"
 alias bx="bundle exec"
