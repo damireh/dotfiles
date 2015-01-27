@@ -7,6 +7,8 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'benmills/vimux'
+Plugin 'janko-m/vim-test'
+Plugin 'flazz/vim-colorschemes'
 Plugin 'gmarik/Vundle.vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'kchmck/vim-coffee-script'
@@ -46,7 +48,13 @@ function! InsertTabWrapper()
   endif
 endfunction
 
+nmap <silent> <leader>T :TestNearest<CR>
+nmap <silent> <leader>t :TestFile<CR>
+nmap <silent> <leader>a :TestSuite<CR>
+nmap <silent> <leader>l :TestLast<CR>
+
 inoremap <Tab> <c-r>=InsertTabWrapper()<cr>
 
 let g:user_emmet_leader_key='<C-x>'
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . -co --exclude-standard', 'find %s -type f']
+let g:test#strategy = 'vimux'
