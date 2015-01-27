@@ -5,6 +5,7 @@ alias mkdir="mkdir -p"
 alias tml="tmux list-sessions"
 alias tma="tmux -2 attach -t $1"
 alias tmk="tmux kill-session -t $1"
+alias tx="tmuxinator"
 
 alias g="git"
 alias gs="git status"
