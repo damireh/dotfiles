@@ -9,7 +9,7 @@ call vundle#begin()
 Plugin 'benmills/vimux'
 Plugin 'gmarik/Vundle.vim'
 Plugin 'itchyny/lightline.vim'
-Plugin 'jgdavey/vim-turbux'
+Plugin 'kchmck/vim-coffee-script'
 Plugin 'kien/ctrlp.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'rking/ag.vim'
