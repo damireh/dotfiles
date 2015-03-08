@@ -18,3 +18,4 @@ alias -g G="| pt"
 
 alias b="bundle"
 alias bx="bundle exec"
+alias bup="bundle update"
