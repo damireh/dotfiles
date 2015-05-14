@@ -36,6 +36,7 @@ set nu relativenumber numberwidth=2
 set incsearch hlsearch
 set laststatus=2 ruler showcmd
 set wildignore+=*/tmp/*
+set clipboard=unnamed
 
 autocmd BufWritePre * :%s/\s\+$//e
 
