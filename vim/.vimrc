@@ -19,6 +19,7 @@ Plugin 'rking/ag.vim'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-rails'
+Plugin 'tpope/vim-rake'
 Plugin 'tpope/vim-surround'
 
 call vundle#end()
