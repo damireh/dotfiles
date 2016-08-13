@@ -21,6 +21,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-rake'
 Plugin 'tpope/vim-surround'
+Plugin 'rhysd/vim-crystal'
 
 call vundle#end()
 
