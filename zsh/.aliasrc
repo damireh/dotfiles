@@ -23,3 +23,5 @@ alias bup="bundle update"
 alias ls="ls -l"
 
 alias cr=crystal
+
+alias rm="trash"
