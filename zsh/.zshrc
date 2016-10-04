@@ -18,6 +18,8 @@ setopt AUTO_CD NO_BEEP CORRECT
 autoload -U compinit promptinit colors edit-command-line
 compinit; promptinit; colors
 
+eval "$(rbenv init -)";
+
 current_directory() {
   echo "%1~"
 }
