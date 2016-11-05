@@ -6,7 +6,6 @@ set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
 
-Plugin 'benmills/vimux'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'gmarik/Vundle.vim'
@@ -61,4 +60,3 @@ inoremap <Tab> <c-r>=InsertTabWrapper()<cr>
 
 let g:user_emmet_leader_key='<C-x>'
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . -co --exclude-standard', 'find %s -type f']
-" let g:test#strategy = 'vimux'
