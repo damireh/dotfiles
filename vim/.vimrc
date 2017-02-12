@@ -51,6 +51,10 @@ function! InsertTabWrapper()
   endif
 endfunction
 
+nmap <silent> <leader>ca :CrystalSpecRunAll<CR>
+nmap <silent> <leader>ct :CrystalSpecRunCurrent<CR>
+nmap <silent> <leader>cf :CrystalFormat<CR>
+
 nmap <silent> <leader>T :TestNearest<CR>
 nmap <silent> <leader>t :TestFile<CR>
 nmap <silent> <leader>a :TestSuite<CR>
