@@ -25,3 +25,6 @@ alias ls="ls -l"
 alias cr=crystal
 
 alias rm="trash"
+
+alias dc=docker-compose
+alias dm=docker-machine
