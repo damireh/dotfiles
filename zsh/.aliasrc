@@ -22,6 +22,7 @@ alias bx="bundle exec"
 alias bup="bundle update"
 
 alias ls="ls -l"
+alias ll="ls -l"
 
 alias cr=crystal
 
