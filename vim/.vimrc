@@ -6,22 +6,21 @@ set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
 
-Plugin 'elixir-lang/vim-elixir'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'gmarik/Vundle.vim'
+Plugin 'hashivim/vim-terraform'
 Plugin 'itchyny/lightline.vim'
 Plugin 'janko-m/vim-test'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'kien/ctrlp.vim'
 Plugin 'mattn/emmet-vim'
+Plugin 'rhysd/vim-crystal'
 Plugin 'rking/ag.vim'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-rake'
 Plugin 'tpope/vim-surround'
-Plugin 'rhysd/vim-crystal'
-Plugin 'hashivim/vim-terraform'
 
 call vundle#end()
 
