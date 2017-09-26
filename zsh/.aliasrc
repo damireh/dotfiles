@@ -15,7 +15,7 @@ alias gcb="git checkout -b"
 alias gl="git log --oneline"
 alias gfa="git commit --amend --no-edit"
 
-alias -g G="| pt"
+alias -g G="| grep --color"
 
 alias b="bundle"
 alias bx="bundle exec"
