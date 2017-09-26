@@ -32,7 +32,7 @@ colorscheme smyck
 
 set noswapfile nowritebackup nobackup
 set tabstop=2 shiftwidth=2 expandtab
-set textwidth=100 colorcolumn=+1
+set textwidth=120 colorcolumn=+1
 set backspace=2
 set nu relativenumber numberwidth=2
 set incsearch hlsearch
