@@ -21,8 +21,8 @@ alias b="bundle"
 alias bx="bundle exec"
 alias bup="bundle update"
 
-alias ls="ls -l"
-alias ll="ls -l"
+alias ls="gls --color --group-directories-first -l"
+alias ll="ls -a"
 
 alias cr=crystal
 
