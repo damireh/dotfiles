@@ -18,7 +18,8 @@ setopt AUTO_CD NO_BEEP CORRECT
 autoload -U compinit promptinit colors edit-command-line
 compinit; promptinit; colors
 
-eval "$(rbenv init -)";
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
 
 current_directory() {
   echo "%1~"
@@ -32,8 +33,8 @@ git_prompt() {
 }
 
 ruby_version() {
-  if (( $+commands[rbenv] )) then
-    echo "$(rbenv version | awk '{print $1}')"
+  if (( $+commands[asdf] )) then
+    echo "$(asdf current ruby | awk '{print $1}')"
   fi
 }
 
