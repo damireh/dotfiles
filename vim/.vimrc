@@ -21,6 +21,7 @@ Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-rake'
+Plugin 'tpope/vim-projectionist'
 Plugin 'tpope/vim-surround'
 Plugin 'fatih/vim-go'
 
