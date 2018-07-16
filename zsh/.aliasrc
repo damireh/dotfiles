@@ -35,3 +35,5 @@ alias dm=docker-machine
 alias tf=terraform
 
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
+
+alias rce="rails credentials:edit"
