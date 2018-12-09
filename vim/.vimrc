@@ -42,6 +42,7 @@ set incsearch hlsearch
 set laststatus=2 ruler showcmd
 set wildignore+=*/tmp/*
 set clipboard=unnamed
+set encoding=utf-8 fileencoding=utf-8
 
 autocmd BufWritePre * :%s/\s\+$//e
 
