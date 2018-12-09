@@ -8,6 +8,7 @@ brew "vim"
 brew "grep"
 brew "trash"
 brew "git"
+brew "coreutils"
 
 tap "homebrew/cask"
 cask "1Password"
