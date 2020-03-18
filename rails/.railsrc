@@ -1,6 +1,6 @@
 --database postgresql
 --skip-keeps
 --skip-action-cable
---skip-test
+#--skip-test
 --skip-sprockets
---webpack=react
+--webpack=stimulus
