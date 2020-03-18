@@ -9,6 +9,7 @@ brew "grep"
 brew "trash"
 brew "git"
 brew "coreutils"
+brew "exa"
 
 tap "homebrew/cask"
 cask "1Password"
