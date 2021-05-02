@@ -34,7 +34,7 @@ git_prompt() {
 
 ruby_version() {
   if (( $+commands[asdf] )) then
-    echo "$(asdf current ruby | awk '{print $1}')"
+    echo "$(asdf current ruby | awk '{print $2}')"
   fi
 }
 
