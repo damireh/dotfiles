@@ -29,8 +29,7 @@ alias cr=crystal
 
 alias rm="trash"
 
-alias dc=docker-compose
-alias dm=docker-machine
+alias dc="docker compose"
 
 alias tf=terraform
 
