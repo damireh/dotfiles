@@ -14,7 +14,10 @@ alias gc="git checkout"
 alias gcb="git checkout -b"
 alias gl="git log --oneline"
 alias gfa="git commit --amend --no-edit"
-alias gpom="git pull --rebase origin master"
+alias gca="git commit --amend"
+alias gpom="git pull --rebase origin master 2> /dev/null || git pull --rebase origin main"
+alias gp="git commit -p"
+alias gbr="git branch"
 
 alias -g G="| grep --color"
 
