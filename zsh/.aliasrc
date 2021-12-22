@@ -41,3 +41,5 @@ alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias rce="rails credentials:edit"
 
 alias a="arch -x86_64"
+
+alias claer="clear"
