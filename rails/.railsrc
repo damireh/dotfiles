@@ -1,6 +1,3 @@
 --database postgresql
---skip-keeps
---skip-action-cable
-#--skip-test
---skip-sprockets
---webpack=stimulus
+--skip-test
+--css tailwind
