@@ -5,3 +5,5 @@ log
 *.log
 .envrc
 .projections.json
+
+*.dump
