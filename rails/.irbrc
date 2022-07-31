@@ -1,7 +1,1 @@
-require "pry"
-
-begin
-  extend Rails::ConsoleMethods
-  Pry.start; exit
-rescue
-end
+IRB.conf[:USE_AUTOCOMPLETE] = false
