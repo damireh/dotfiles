@@ -7,23 +7,23 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'ap/vim-css-color'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'dense-analysis/ale'
+Plugin 'fatih/vim-go'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'gmarik/Vundle.vim'
 Plugin 'hashivim/vim-terraform'
 Plugin 'itchyny/lightline.vim'
 Plugin 'janko-m/vim-test'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'rhysd/vim-crystal'
 Plugin 'rking/ag.vim'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-projectionist'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-rake'
-Plugin 'tpope/vim-projectionist'
 Plugin 'tpope/vim-surround'
-Plugin 'fatih/vim-go'
 
 call vundle#end()
 
