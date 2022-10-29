@@ -78,3 +78,8 @@ let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . -co --exclude-stand
 let g:terraform_fmt_on_save=1
 let g:go_fmt_command = "goimports"
 let g:go_fmt_autosave = 1
+
+let g:rails_projections = {
+      \ "app/controllers/*.rb": { "alternate": "spec/requests/{}_spec.rb" },
+      \ "spec/requests/*_spec.rb": { "alternate": "app/controllers/{}.rb" }
+      \ }
