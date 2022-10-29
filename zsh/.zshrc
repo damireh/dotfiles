@@ -50,3 +50,5 @@ export PATH="/opt/homebrew/sbin:$PATH"
 export PATH="/usr/local/sessionmanagerplugin/bin:$PATH"
 
 eval "$(direnv hook zsh)"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

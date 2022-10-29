@@ -55,6 +55,8 @@ function! InsertTabWrapper()
   endif
 endfunction
 
+nmap <C-P> :FZF<CR>
+
 nmap <silent> <leader>ca :CrystalSpecRunAll<CR>
 nmap <silent> <leader>ct :CrystalSpecRunCurrent<CR>
 nmap <silent> <leader>cf :CrystalFormat<CR>
