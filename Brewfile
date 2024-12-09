@@ -10,7 +10,7 @@ brew "grep"
 brew "trash"
 brew "git"
 brew "coreutils"
-brew "exa"
+brew "eza"
 brew "asdf"
 
 tap "homebrew/cask"

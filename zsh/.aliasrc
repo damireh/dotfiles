@@ -26,7 +26,7 @@ alias bx="bundle exec"
 alias bup="bundle update"
 
 alias ls="gls --color --group-directories-first -l"
-alias ll="exa --long"
+alias ll="eza --long"
 
 alias cr=crystal
 
