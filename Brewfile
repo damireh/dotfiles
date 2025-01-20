@@ -15,5 +15,5 @@ brew "asdf"
 
 tap "homebrew/cask"
 cask "Slack"
-cask "spectacle"
+cask "rectangle"
 cask "whatsapp"
