@@ -13,7 +13,6 @@ brew "coreutils"
 brew "eza"
 brew "asdf"
 
-tap "homebrew/cask"
 cask "Slack"
 cask "rectangle"
 cask "whatsapp"
