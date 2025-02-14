@@ -18,8 +18,6 @@ setopt AUTO_CD NO_BEEP CORRECT
 autoload -U compinit promptinit colors edit-command-line
 compinit; promptinit; colors
 
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
-
 current_directory() {
   echo "%1~"
 }
@@ -48,6 +46,7 @@ RPROMPT='%F{yellow}$(ruby_prompt)%f'
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/opt/homebrew/sbin:$PATH"
 export PATH="/usr/local/sessionmanagerplugin/bin:$PATH"
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 eval "$(direnv hook zsh)"
 
