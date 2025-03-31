@@ -25,10 +25,11 @@ Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-rake'
 Plugin 'tpope/vim-surround'
 
-Plugin 'pangloss/vim-javascript'
-Plugin 'leafgarland/typescript-vim'
-Plugin 'peitalin/vim-jsx-typescript'
 Plugin 'jparise/vim-graphql'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'pangloss/vim-javascript'
+Plugin 'peitalin/vim-jsx-typescript'
+Plugin 'prettier/vim-prettier'
 
 call vundle#end()
 
@@ -50,6 +51,7 @@ set clipboard=unnamed
 set encoding=utf-8 fileencoding=utf-8
 
 autocmd BufWritePre * :%s/\s\+$//e
+autocmd BufWritePre *.jsx,*.js,*.tsx,*.ts Prettier
 
 function! InsertTabWrapper()
   let col = col('.') - 1
@@ -78,6 +80,7 @@ let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . -co --exclude-stand
 let g:terraform_fmt_on_save=1
 let g:go_fmt_command = "goimports"
 let g:go_fmt_autosave = 1
+let g:prettier#quickfix_auto_focus = 0
 
 let g:rails_projections = {
       \ "app/controllers/*.rb": { "alternate": "spec/requests/{}_spec.rb" },
