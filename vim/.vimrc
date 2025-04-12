@@ -31,6 +31,8 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'peitalin/vim-jsx-typescript'
 Plugin 'prettier/vim-prettier'
 
+Plugin 'pasky/claude.vim'
+
 call vundle#end()
 
 filetype plugin indent on
@@ -86,3 +88,6 @@ let g:rails_projections = {
       \ "app/controllers/*.rb": { "alternate": "spec/requests/{}_spec.rb" },
       \ "spec/requests/*_spec.rb": { "alternate": "app/controllers/{}.rb" }
       \ }
+
+
+let g:claude_api_key = trim(join(readfile(expand('~/.config/claude.token'))))
