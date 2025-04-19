@@ -18,6 +18,7 @@ alias gca="git commit --amend"
 alias gpom="git pull --rebase origin master 2> /dev/null || git pull --rebase origin main"
 alias gp="git commit -p"
 alias gbr="git branch"
+alias gdr="git branch | grep -v "main" | xargs git branch -D"
 
 alias -g G="| grep --color"
 
