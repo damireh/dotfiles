@@ -12,7 +12,7 @@ brew "git"
 brew "git-extras"
 brew "coreutils"
 brew "eza"
-brew "asdf"
+brew "mise"
 
 cask "Slack"
 cask "rectangle"
