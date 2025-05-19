@@ -30,8 +30,8 @@ git_prompt() {
 }
 
 ruby_version() {
-  if (( $+commands[asdf] )) then
-    echo "$(asdf current ruby | awk '{print $2}')"
+  if (( $+commands[mise] )) then
+    echo "$(mise current ruby)"
   fi
 }
 
@@ -46,8 +46,8 @@ RPROMPT='%F{yellow}$(ruby_prompt)%f'
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/opt/homebrew/sbin:$PATH"
 export PATH="/usr/local/sessionmanagerplugin/bin:$PATH"
-export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 eval "$(direnv hook zsh)"
+eval "$(mise activate zsh)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
