@@ -1,7 +1,5 @@
 alias todo="$EDITOR ~/.todo"
 
-alias mkdir="mkdir -p"
-
 alias tml="tmux list-sessions"
 alias tma="tmux -2 attach -t $1"
 alias tmk="tmux kill-session -t $1"
@@ -26,12 +24,13 @@ alias b="bundle"
 alias bx="bundle exec"
 alias bup="bundle update"
 
+alias mkdir="mkdir -p"
 alias ls="gls --color --group-directories-first -l"
 alias ll="eza --long"
+alias rm="trash"
+alias claer="clear"
 
 alias cr=crystal
-
-alias rm="trash"
 
 alias dc="docker compose"
 
@@ -40,7 +39,3 @@ alias tf=terraform
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 
 alias rce="rails credentials:edit"
-
-alias a="arch -x86_64"
-
-alias claer="clear"
