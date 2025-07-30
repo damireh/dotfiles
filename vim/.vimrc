@@ -31,7 +31,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'peitalin/vim-jsx-typescript'
 Plugin 'prettier/vim-prettier'
 
-Plugin 'pasky/claude.vim'
+Plugin 'github/copilot.vim'
 
 call vundle#end()
 
