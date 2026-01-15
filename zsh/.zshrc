@@ -51,3 +51,17 @@ eval "$(direnv hook zsh)"
 eval "$(mise activate zsh)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+kill-port() {
+  if [ -z "$1" ]; then
+    echo "Usage: kill-port PORT"
+    return 1
+  fi
+  local pids=$(lsof -ti :$1)
+  if [ -z "$pids" ]; then
+    echo "No process found on port $1"
+    return 0
+  fi
+  echo "Killing processes on port $1: $(echo $pids | tr '\n' ' ')"
+  echo "$pids" | xargs kill -9
+}
