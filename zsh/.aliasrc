@@ -2,7 +2,7 @@ alias todo="$EDITOR ~/.todo"
 
 alias tml="tmux list-sessions"
 alias tma="tmux -2 attach -t $1"
-alias tmk="tmux kill-session -t $1"
+tmk() { for s in "$@"; do tx stop "$s" 2>/dev/null || tmux kill-session -t "$s"; done; }
 alias tx="tmuxinator"
 
 alias g="git"
