@@ -1,10 +1,15 @@
-#!/bin/bash
+#!/bin/sh
+set -e
 
-stow=`which stow`
-stow_root=`dirname $0`
-packages=`find ${stow_root} -type d -depth 1 -not -name ".*" -exec basename {} \;`
-
-for package in ${packages}; do
-  echo "Installing ${package}"
-  ${stow} ${package} -t ~
+for pkg in "$PWD"/*/; do
+  echo "Installing $(basename "$pkg")"
+  for src in "$pkg".[!.]*; do
+    [ -e "$src" ] || continue
+    dest="$HOME/${src##*/}"
+    if [ -d "$src" ] && [ -d "$dest" ] && [ ! -L "$dest" ]; then
+      for sub in "$src"/*; do [ -e "$sub" ] && ln -sfn "$sub" "$dest/${sub##*/}"; done
+    else
+      ln -sfn "$src" "$dest"
+    fi
+  done
 done

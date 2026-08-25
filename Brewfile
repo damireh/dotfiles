@@ -1,4 +1,3 @@
-brew "stow"
 brew "direnv"
 brew "tmux"
 brew "pt"
