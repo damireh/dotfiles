@@ -29,6 +29,7 @@ alias bup="bundle update"
 alias mkdir="mkdir -p"
 alias ls="eza --group-directories-first --long"
 alias ll="ls"
+alias pt="rg --hidden --glob '!.git'"
 alias rm="trash"
 alias claer="clear"
 

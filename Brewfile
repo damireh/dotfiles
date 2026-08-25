@@ -1,6 +1,6 @@
 brew "direnv"
 brew "tmux"
-brew "pt"
+brew "ripgrep"
 brew "fzf"
 brew "neovim"
 brew "trash"
