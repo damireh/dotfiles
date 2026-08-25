@@ -1,5 +1,4 @@
 brew "stow"
-brew "zsh"
 brew "direnv"
 brew "tmux"
 brew "reattach-to-user-namespace"
