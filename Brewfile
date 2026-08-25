@@ -1,7 +1,6 @@
 brew "stow"
 brew "direnv"
 brew "tmux"
-brew "reattach-to-user-namespace"
 brew "pt"
 brew "fzf"
 brew "neovim"
