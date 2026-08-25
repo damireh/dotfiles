@@ -6,7 +6,6 @@ brew "neovim"
 brew "trash"
 brew "git"
 brew "git-extras"
-brew "coreutils"
 brew "eza"
 brew "mise"
 
