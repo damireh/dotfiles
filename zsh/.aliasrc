@@ -18,6 +18,7 @@ alias gpom="git pull --rebase origin master 2> /dev/null || git pull --rebase or
 alias gp="git commit -p"
 alias gbr="git branch"
 alias gdr="git branch | grep -v "main" | xargs git branch -D"
+alias merge-open-prs="gh pr list --json number -q '.[].number' | xargs -n1 gh pr merge --squash --delete-branch"
 
 alias -g G="| grep --color"
 
