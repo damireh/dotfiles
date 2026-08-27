@@ -3,7 +3,7 @@
 [dotfiles]
 "~/.gitconfig"        = "git/.gitconfig"
 "~/.gitignore_global" = "git/.gitignore_global"
-"~/.config/nvim"      = "nvim/.config/nvim"
+"~/.config/nvim"      = "nvim"
 "~/.gemrc"            = "rails/.gemrc"
 "~/.irbrc"            = "rails/.irbrc"
 "~/.railsrc"          = "rails/.railsrc"
