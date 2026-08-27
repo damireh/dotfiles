@@ -1,6 +1,7 @@
 [dotfiles]
 "~/.gitconfig"        = "git/gitconfig"
 "~/.gitignore_global" = "git/gitignore_global"
+"~/.config/mise"      = "mise"
 "~/.config/nvim"      = "nvim"
 "~/.gemrc"            = "rails/gemrc"
 "~/.irbrc"            = "rails/irbrc"
