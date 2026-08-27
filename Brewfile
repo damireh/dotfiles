@@ -1,7 +1,6 @@
 brew "trash"
 brew "git"
 brew "git-extras"
-brew "mise"
 
 cask "Slack"
 cask "rectangle"

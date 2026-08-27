@@ -5,6 +5,7 @@ set -e
 eval "$(/opt/homebrew/bin/brew shellenv)"
 brew bundle
 
-mise trust
-mise bootstrap dotfiles apply
-mise install
+curl -fsSL https://mise.run | sh
+~/.local/bin/mise trust
+~/.local/bin/mise bootstrap dotfiles apply
+~/.local/bin/mise install
