@@ -5,15 +5,5 @@ set -e
 eval "$(/opt/homebrew/bin/brew shellenv)"
 brew bundle
 
-for pkg in "$PWD"/*/; do
-  echo "Installing $(basename "$pkg")"
-  for src in "$pkg".[!.]*; do
-    [ -e "$src" ] || continue
-    dest="$HOME/${src##*/}"
-    if [ -d "$src" ] && [ -d "$dest" ] && [ ! -L "$dest" ]; then
-      for sub in "$src"/*; do [ -e "$sub" ] && ln -sfn "$sub" "$dest/${sub##*/}"; done
-    else
-      ln -sfn "$src" "$dest"
-    fi
-  done
-done
+mise trust
+mise bootstrap dotfiles apply

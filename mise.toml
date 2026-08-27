@@ -1,0 +1,15 @@
+# Symlink dotfiles into $HOME. Replaces the loop in ./install.
+# Apply with: mise bootstrap dotfiles apply
+[dotfiles]
+"~/.gitconfig"        = "git/.gitconfig"
+"~/.gitignore_global" = "git/.gitignore_global"
+"~/.config/nvim"      = "nvim/.config/nvim"
+"~/.gemrc"            = "rails/.gemrc"
+"~/.irbrc"            = "rails/.irbrc"
+"~/.railsrc"          = "rails/.railsrc"
+"~/.rspec"            = "rails/.rspec"
+"~/.hushlogin"        = "system/.hushlogin"
+"~/.tmux.conf"        = "tmux/.tmux.conf"
+"~/.aliasrc"          = "zsh/.aliasrc"
+"~/.zshenv"           = "zsh/.zshenv"
+"~/.zshrc"            = "zsh/.zshrc"
