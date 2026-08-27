@@ -1,0 +1,16 @@
+[settings]
+idiomatic_version_file_enable_tools = ["ruby"]
+lockfile = true
+
+[tools]
+duckdb = "latest"
+postgres = "18"
+nodejs = "24"
+ruby = "4.0.5"
+"npm:@earendil-works/pi-coding-agent" = "latest"
+direnv = "latest"
+eza = "latest"
+fzf = "latest"
+neovim = "latest"
+ripgrep = "latest"
+tmux = "latest"

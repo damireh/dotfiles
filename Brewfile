@@ -1,12 +1,6 @@
-brew "direnv"
-brew "tmux"
-brew "ripgrep"
-brew "fzf"
-brew "neovim"
 brew "trash"
 brew "git"
 brew "git-extras"
-brew "eza"
 brew "mise"
 
 cask "Slack"

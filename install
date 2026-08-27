@@ -7,3 +7,4 @@ brew bundle
 
 mise trust
 mise bootstrap dotfiles apply
+mise install
