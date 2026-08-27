@@ -1,5 +1,3 @@
-# Symlink dotfiles into $HOME. Replaces the loop in ./install.
-# Apply with: mise bootstrap dotfiles apply
 [dotfiles]
 "~/.gitconfig"        = "git/.gitconfig"
 "~/.gitignore_global" = "git/.gitignore_global"
