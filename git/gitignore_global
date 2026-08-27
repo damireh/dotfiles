@@ -2,7 +2,11 @@
 .netrwhist
 log
 *.log
-.envrc
 .projections.json
 
-*.dump
+dump.sql
+
+.claude/*.local.json
+
+.envrc
+mise.local.toml
