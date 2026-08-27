@@ -4,9 +4,9 @@ lockfile = true
 
 [tools]
 duckdb = "latest"
-postgres = "18"
-nodejs = "24"
-ruby = "4.0.5"
+postgres = "latest"
+nodejs = "latest"
+ruby = "latest"
 "npm:@earendil-works/pi-coding-agent" = "latest"
 direnv = "latest"
 eza = "latest"
