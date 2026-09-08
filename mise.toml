@@ -7,8 +7,10 @@
 "~/.irbrc"            = "rails/irbrc"
 "~/.railsrc"          = "rails/railsrc"
 "~/.rspec"            = "rails/rspec"
-"~/.hushlogin"        = "system/hushlogin"
 "~/.tmux.conf"        = "tmux/tmux.conf"
 "~/.aliasrc"          = "zsh/aliasrc"
 "~/.zshenv"           = "zsh/zshenv"
 "~/.zshrc"            = "zsh/zshrc"
+
+[bootstrap.files."~/.hushlogin"]
+content = ""
