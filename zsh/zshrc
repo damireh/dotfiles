@@ -29,20 +29,7 @@ git_prompt() {
   fi
 }
 
-ruby_version() {
-  if (( $+commands[mise] )) then
-    echo "$(mise current ruby)"
-  fi
-}
-
-ruby_prompt() {
-  if ! [[ -z "$(ruby_version)" ]] then
-    echo "$(ruby_version)"
-  fi
-}
-
 PROMPT='%F{green}$(git_prompt)%f %F{blue}$(current_directory)%f '
-RPROMPT='%F{yellow}$(ruby_prompt)%f'
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/opt/homebrew/sbin:$PATH"
 export PATH="/usr/local/sessionmanagerplugin/bin:$PATH"
