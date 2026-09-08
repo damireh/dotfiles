@@ -12,3 +12,47 @@
 "~/.aliasrc"          = "zsh/aliasrc"
 "~/.zshenv"           = "zsh/zshenv"
 "~/.zshrc"            = "zsh/zshrc"
+
+[bootstrap.macos.dock]
+tilesize = 64
+show_recents = false
+
+[bootstrap.macos.finder]
+show_extensions_warning = false
+
+[bootstrap.macos.keyboard]
+key_repeat = 2
+initial_key_repeat = 15
+
+[bootstrap.macos.defaults.NSGlobalDomain]
+AppleInterfaceStyleSwitchesAutomatically = true
+AppleActionOnDoubleClick = "Minimize"
+"com.apple.swipescrolldirection" = false
+NSAutomaticCapitalizationEnabled = false
+NSAutomaticDashSubstitutionEnabled = false
+NSAutomaticPeriodSubstitutionEnabled = false
+NSAutomaticQuoteSubstitutionEnabled = false
+NSAutomaticSpellingCorrectionEnabled = false
+NSAutomaticInlinePredictionEnabled = false
+WebAutomaticSpellingCorrectionEnabled = false
+
+[bootstrap.macos.defaults."com.apple.dock"]
+"minimize-to-application" = true
+
+[bootstrap.macos.defaults."com.apple.finder"]
+NewWindowTarget = "PfHm"
+_FXSortFoldersFirst = true
+WarnOnEmptyTrash = false
+ShowExternalHardDrivesOnDesktop = false
+ShowRemovableMediaOnDesktop = false
+
+[bootstrap.macos.defaults."com.apple.screencapture"]
+location = "~/Pictures/Screenshots"
+"show-thumbnail" = false
+
+[bootstrap.macos.defaults."com.apple.WindowManager"]
+EnableTiledWindowMargins = false
+EnableTilingByEdgeDrag = false
+EnableTopTilingByEdgeDrag = false
+EnableTilingOptionAccelerator = false
+StandardHideWidgets = true
