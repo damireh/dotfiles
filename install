@@ -3,5 +3,4 @@ set -e
 
 curl -fsSL https://mise.run | sh
 ~/.local/bin/mise trust
-~/.local/bin/mise bootstrap dotfiles apply
-~/.local/bin/mise install
+~/.local/bin/mise bootstrap
