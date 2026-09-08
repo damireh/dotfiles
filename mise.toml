@@ -8,6 +8,8 @@
 "~/.railsrc"          = "rails/railsrc"
 "~/.rspec"            = "rails/rspec"
 "~/.hushlogin"        = "system/hushlogin"
+"~/.screenshot-clipboard.sh" = "system/screenshot-clipboard.sh"
+"~/Library/LaunchAgents/com.damireh.screenshot-clipboard.plist" = "system/com.damireh.screenshot-clipboard.plist"
 "~/.tmux.conf"        = "tmux/tmux.conf"
 "~/.aliasrc"          = "zsh/aliasrc"
 "~/.zshenv"           = "zsh/zshenv"

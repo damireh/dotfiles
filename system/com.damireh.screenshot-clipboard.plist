@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.damireh.screenshot-clipboard</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>-c</string>
+    <string>exec "$HOME/.screenshot-clipboard.sh"</string>
+  </array>
+  <!-- Runs each time the folder changes; the script copies a screenshot only if one is fresh. -->
+  <key>WatchPaths</key>
+  <array>
+    <string>/Users/daniel/Pictures/Screenshots</string>
+  </array>
+  <key>StandardErrorPath</key>
+  <string>/tmp/screenshot-clipboard.err</string>
+</dict>
+</plist>
