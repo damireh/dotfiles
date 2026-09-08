@@ -14,6 +14,8 @@ neovim = "latest"
 ripgrep = "latest"
 tmux = "latest"
 gh = "latest"
+1password-cli = "latest"
+uv = "latest"
 
 [bootstrap.packages]
 "brew:openssl@3" = "latest"
