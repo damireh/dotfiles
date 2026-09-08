@@ -10,7 +10,6 @@
     <string>-c</string>
     <string>exec "$HOME/.screenshot-clipboard.sh"</string>
   </array>
-  <!-- Runs each time the folder changes; the script copies a screenshot only if one is fresh. -->
   <key>WatchPaths</key>
   <array>
     <string>/Users/daniel/Pictures/Screenshots</string>
