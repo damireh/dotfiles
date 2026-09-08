@@ -14,7 +14,6 @@
 "~/.zshrc"            = "zsh/zshrc"
 
 [bootstrap.macos.dock]
-tilesize = 64
 show_recents = false
 
 [bootstrap.macos.finder]
@@ -37,7 +36,7 @@ NSAutomaticInlinePredictionEnabled = false
 WebAutomaticSpellingCorrectionEnabled = false
 
 [bootstrap.macos.defaults."com.apple.dock"]
-"minimize-to-application" = true
+minimize-to-application = true
 
 [bootstrap.macos.defaults."com.apple.finder"]
 NewWindowTarget = "PfHm"
@@ -48,7 +47,7 @@ ShowRemovableMediaOnDesktop = false
 
 [bootstrap.macos.defaults."com.apple.screencapture"]
 location = "~/Pictures/Screenshots"
-"show-thumbnail" = false
+show-thumbnail = false
 
 [bootstrap.macos.defaults."com.apple.WindowManager"]
 EnableTiledWindowMargins = false
