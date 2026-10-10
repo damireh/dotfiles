@@ -1,10 +1,11 @@
 [settings]
 idiomatic_version_file_enable_tools = ["node", "ruby"]
 node.corepack = true
+tool_update.global_auto = true
 
 [tools]
 duckdb = "latest"
-postgres = "latest"
+postgres = "18"
 nodejs = "latest"
 ruby = "latest"
 pi = "latest"
