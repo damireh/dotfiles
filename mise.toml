@@ -57,3 +57,12 @@ EnableTilingByEdgeDrag = false
 EnableTopTilingByEdgeDrag = false
 EnableTilingOptionAccelerator = false
 StandardHideWidgets = true
+
+[bootstrap.macos.defaults."com.apple.TextInputMenu"]
+visible = false
+
+[[bootstrap.macos.defaults_entries]]
+domain = "com.apple.controlcenter"
+key = "BatteryShowPercentage"
+host = "current"
+value = true
