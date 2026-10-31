@@ -68,3 +68,15 @@ domain = "com.apple.controlcenter"
 key = "BatteryShowPercentage"
 host = "current"
 value = true
+
+[bootstrap.macos.defaults."com.apple.Terminal"]
+"Default Window Settings" = "Smyck"
+"Startup Window Settings" = "Smyck"
+
+# import before defaults set Smyck as the default profile
+[bootstrap.hooks.pre-defaults]
+description = "Import the Smyck Terminal profile if it is missing"
+run = """
+/usr/libexec/PlistBuddy -c 'Print :"Window Settings":Smyck:name' ~/Library/Preferences/com.apple.Terminal.plist >/dev/null 2>&1 \
+  || open "{{config_root}}/system/Smyck.terminal"
+"""
