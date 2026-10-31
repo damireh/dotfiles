@@ -2,6 +2,7 @@
 idiomatic_version_file_enable_tools = ["node", "ruby"]
 node.corepack = true
 tool_update.global_auto = true
+self_update.auto = true
 
 [tools]
 duckdb = "latest"
